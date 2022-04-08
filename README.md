@@ -17,7 +17,8 @@ Write **Terraform** that can be used to deploy the three-tiered "click counter" 
 - Use Dockerfile in the `back` directory of this repo to build `back` image
 - Push built images to free container registry like Dockerhub, Github Packages, or AWS ECR
 - Use any version of `redis` from Dockerhub
-- Use Terraform and any additional scripting to deploy containers to a free-tier option in AWS like **EC2** and/or **Lambda + API Gateway**
+- Use AWS free-tier option(s) like **EC2** and/or **Lambda + API Gateway** for running containers
+- Use **Terraform**, your choice of CI/CD solution, and/or any additional scripting to deploy the containers 
 
 If you have questions or something seems "not right", please reach out via email.
 
