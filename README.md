@@ -5,6 +5,7 @@
 - Fork this repository to your personal GitHub account. If you prefer, you may create your own private repository instead.
 - Complete your project and push your code to your repository.
 - Send a link to your public repo or invite [@joeles](https://github.com/joeles) and [@ShawnConn](https://github.com/ShawnConn) as collaborators if it is private.
+- We will schedule the final interview to review and discuss.
 
 ## Project Requirements
 
@@ -52,6 +53,9 @@ If you have questions or something seems "not right", please reach out via email
 - Hide the `3000`/`4000` ports and make the service available over port `80` using the method of your choice
 - Implement basic security measures
 - Add DNS or other customizations
+
+### Preview 
+![image](https://user-images.githubusercontent.com/68586/162465910-892c2e8d-be41-4852-87c7-9ead1ca2e966.png)
 
 ## Interview
 
