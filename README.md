@@ -18,7 +18,7 @@ Write **Terraform** that can be used to deploy the three-tiered "click counter" 
 - Push built images to free container registry like Dockerhub, Github Packages, or AWS ECR
 - Use any version of `redis` from Dockerhub
 - Use AWS free-tier option(s) like **EC2** and/or **Lambda + API Gateway** for running containers
-- Use **Terraform**, your choice of CI/CD solution, and/or any additional scripting to deploy the containers 
+- Use **Terraform**, your choice of CI/CD solution, and/or any additional scripting to deploy the containers
 
 If you have questions or something seems "not right", please reach out via email.
 
@@ -42,20 +42,22 @@ If you have questions or something seems "not right", please reach out via email
         -  `3000`
     - Provides:
         - `/`  - Click counter display/UI
+        - `/ping` - Returns static "pong" response
 
 - `redis` image
     - Requires these ENV vars:
         - None
-    - Binds to port 
+    - Binds to port
         - `6379`
 
 ### Extra credit
 
 - Hide the `3000`/`4000` ports and make the service available over port `80` using the method of your choice
+- Add healthchecks to `front` and `back` apps using the ping endpoint each app provides
 - Implement basic security measures
 - Add DNS or other customizations
 
-### Example 
+### Example
 
 https://devops-exercise.tblk.us
 
@@ -70,4 +72,3 @@ During your online interview, we will:
 - Discuss any challenges and successes of your implementation
 - Cover additional questions, both technical and otherwise
 - Answer any questions you may have
-
