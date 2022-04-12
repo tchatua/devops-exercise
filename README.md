@@ -55,8 +55,12 @@ If you have questions or something seems "not right", please reach out via email
 - Implement basic security measures
 - Add DNS or other customizations
 
-### Preview 
+### Example 
+
+https://devops-exercise.tblk.us
+
 ![image](https://user-images.githubusercontent.com/68586/162465910-892c2e8d-be41-4852-87c7-9ead1ca2e966.png)
+
 
 ## Interview
 
