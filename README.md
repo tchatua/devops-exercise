@@ -4,7 +4,7 @@
 
 - Fork this repository to your personal GitHub account. If you prefer, you may create your own private repository instead.
 - Complete your project and push your code to your repository.
-- Send a link to your public repo or invite [@joeles](https://github.com/joeles) and [@ShawnConn](https://github.com/ShawnConn) as collaborators if it is private.
+- Send a link to your public repo to devexercise@theblock.co or invite [@sachatememe](https://github.com/sachatememe), [@Mike](https://github.com/web-mech) and [@AlexeyGolubeff](https://github.com/AlexeyGolubeff) as collaborators if it is private.
 - We will schedule the final interview to review and discuss.
 
 ## Project Requirements
