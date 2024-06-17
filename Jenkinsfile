@@ -1,7 +1,10 @@
 pipeline {
     agent any
 
-    // environment {}
+    environment {
+        REMOTE_HOST  = '172.31.18.148'
+        REMOTE_USER  = 'ec2-user'
+    }
     stages {
         stage ('Deploy on DockerHost EC2') {
             steps {
