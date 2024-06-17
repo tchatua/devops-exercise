@@ -80,7 +80,4 @@ ssh -i ohio_pem_key_pair.pem dockeradmin@3.128.189.18
       -  Description: docker-hub-tchatua
       -  `Apply` and `Save`
 
-docker login  -u tchatua
-dckr_pat__kxKFw9sK9vmfBoJN7k0gJKHP0s
-
 ## Create my jenkins job
